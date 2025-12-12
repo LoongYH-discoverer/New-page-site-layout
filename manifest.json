@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Vertical Shortcuts",
+  "version": "1.0.0",
+  "description": "A customizable, vertical scrolling speed-dial start page.",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'unsafe-eval' https://cdn.tailwindcss.com; object-src 'self'"
+  },
+  "action": {
+    "default_title": "Vertical Shortcuts"
+  }
+}
